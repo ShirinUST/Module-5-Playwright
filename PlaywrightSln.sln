@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPrj", "ConsoleAppPrj\ConsoleAppPrj.csproj", "{6881B226-C393-4AD9-958D-D346B2408E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWNUnit", "PWNUnit\PWNUnit.csproj", "{AD195F8A-360E-4113-A2DB-5F2F65492F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6881B226-C393-4AD9-958D-D346B2408E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6881B226-C393-4AD9-958D-D346B2408E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6881B226-C393-4AD9-958D-D346B2408E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6881B226-C393-4AD9-958D-D346B2408E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD195F8A-360E-4113-A2DB-5F2F65492F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD195F8A-360E-4113-A2DB-5F2F65492F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD195F8A-360E-4113-A2DB-5F2F65492F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD195F8A-360E-4113-A2DB-5F2F65492F33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09724171-4F30-4AB6-8E67-2727F6436751}
+	EndGlobalSection
+EndGlobal
