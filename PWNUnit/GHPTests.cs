@@ -73,6 +73,7 @@ namespace PWNUnit
 
             //Assert.That(title, Does.Contain("hp"));
             //Expect(title).Equals("hp laptop");
+            await Expect(Page).ToHaveTitleAsync("hp laptop - Google Search");
         }
     }
 }
