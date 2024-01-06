@@ -15,7 +15,9 @@ namespace EANUnit
         public async Task SetUp()
         {
             Console.WriteLine("Opened Browser");
-            await Page.GotoAsync("http://eaapp.somee.com/");
+            await Page.GotoAsync("http://eaapp.somee.com/",
+                new PageGotoOptions
+                { Timeout=3000,WaitUntil=WaitUntilState.DOMContentLoaded});
             Console.WriteLine("Page Loaded");
 
         }
